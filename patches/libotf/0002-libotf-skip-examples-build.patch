@@ -1,0 +1,11 @@
+--- libotf-0.9.16/Makefile.am
++++ libotf-0.9.16/Makefile.am
+@@ -22,7 +22,7 @@
+ 
+ ## Process this file with Automake to create Makefile.in
+ 
+-SUBDIRS = src example
++SUBDIRS = src 
+ 
+ bin_SCRIPTS = libotf-config
+ 
