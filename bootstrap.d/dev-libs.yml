@@ -529,15 +529,10 @@ packages:
   - name: libotf
     source:
       subdir: 'ports'
-      # Keeping the tar.gz from the original site in
-      #url: 'http://download.savannah.gnu.org/releases/m17n/libotf-0.9.16.tar.gz'
       git: 'https://salsa.debian.org/debian/libotf.git'
-      #format: 'tar.gz'
-      #extract_path: 'libotf-0.9.16'
       patch-path-strip: 1
       branch: 'master'
       commit: '85af96e78b5ba551d98eb994f010e737ee044b94'
-      #tag: '0.9.16'
       version: '0.9.16'
       tools_required:
         - host-autoconf-v2.69
